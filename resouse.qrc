@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon.jpg</file>
+        <file>res/appLauchingPage.png</file>
+        <file>res/readFromFile.jpg</file>
+        <file>res/write2File.png</file>
+    </qresource>
+</RCC>

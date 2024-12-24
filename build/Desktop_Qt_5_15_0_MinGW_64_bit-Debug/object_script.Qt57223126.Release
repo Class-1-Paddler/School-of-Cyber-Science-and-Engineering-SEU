@@ -1,0 +1,15 @@
+release/filterDlg.o
+release/global.o
+release/main.o
+release/mainwindow.o
+release/playerTableModel.o
+release/searchDlg.o
+release/sessionTableModel.o
+release/sessionmessageDlg.o
+release/qrc_resouse.o
+release/moc_filterDlg.o
+release/moc_mainwindow.o
+release/moc_playerTableModel.o
+release/moc_searchDlg.o
+release/moc_sessionTableModel.o
+release/moc_sessionmessageDlg.o

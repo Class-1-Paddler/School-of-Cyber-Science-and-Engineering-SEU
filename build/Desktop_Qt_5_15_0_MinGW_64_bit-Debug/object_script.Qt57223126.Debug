@@ -1,0 +1,15 @@
+debug/filterDlg.o
+debug/global.o
+debug/main.o
+debug/mainwindow.o
+debug/playerTableModel.o
+debug/searchDlg.o
+debug/sessionTableModel.o
+debug/sessionmessageDlg.o
+debug/qrc_resouse.o
+debug/moc_filterDlg.o
+debug/moc_mainwindow.o
+debug/moc_playerTableModel.o
+debug/moc_searchDlg.o
+debug/moc_sessionTableModel.o
+debug/moc_sessionmessageDlg.o

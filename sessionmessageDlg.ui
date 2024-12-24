@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SessionMessageDialog</class>
+ <widget class="QDialog" name="SessionMessageDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(221, 227, 216)</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>411</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="SessionMessageDailogGridLayout">
+    <item row="12" column="0" rowspan="2">
+     <widget class="QLabel" name="dunkCountLabel">
+      <property name="text">
+       <string>扣篮次数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1" rowspan="2">
+     <widget class="QSpinBox" name="dunkCountSpinBox"/>
+    </item>
+    <item row="16" column="0" rowspan="2">
+     <widget class="QLabel" name="scoreLabel">
+      <property name="text">
+       <string>本场得分</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1" rowspan="2">
+     <widget class="QSpinBox" name="brokenCountSpinBox"/>
+    </item>
+    <item row="16" column="1" rowspan="2">
+     <widget class="QSpinBox" name="scoreSpinBox"/>
+    </item>
+    <item row="10" column="0" rowspan="2">
+     <widget class="QLabel" name="reboundCountLabel">
+      <property name="text">
+       <string>篮板个数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1" rowspan="2">
+     <widget class="QSpinBox" name="threeCountSpinBox"/>
+    </item>
+    <item row="6" column="0" rowspan="2">
+     <widget class="QLabel" name="sessionTimeLabel">
+      <property name="text">
+       <string>比赛时间</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1" rowspan="2">
+     <widget class="QSpinBox" name="reboundCountSpinBox"/>
+    </item>
+    <item row="0" column="0" rowspan="2">
+     <widget class="QLabel" name="playerNumLabel">
+      <property name="text">
+       <string>球员编号</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0" rowspan="2">
+     <widget class="QLabel" name="brokenCountLabel">
+      <property name="text">
+       <string>抢断次数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" rowspan="2">
+     <widget class="QLabel" name="TeamLabel">
+      <property name="text">
+       <string>球队名称</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" rowspan="2" colspan="2">
+     <widget class="QDateTimeEdit" name="sessionDateTimeEdit"/>
+    </item>
+    <item row="2" column="1" rowspan="2" colspan="2">
+     <widget class="QLineEdit" name="playerNameLineEdit"/>
+    </item>
+    <item row="0" column="1" rowspan="2" colspan="2">
+     <widget class="QLineEdit" name="playerNumLineEdit"/>
+    </item>
+    <item row="2" column="0" rowspan="2">
+     <widget class="QLabel" name="playerNameLabel">
+      <property name="text">
+       <string>球员姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" rowspan="2">
+     <widget class="QLabel" name="threeCountLabel">
+      <property name="text">
+       <string>三分球个数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" rowspan="2" colspan="2">
+     <widget class="QLineEdit" name="teamLineEdit"/>
+    </item>
+    <item row="18" column="1">
+     <widget class="QPushButton" name="submitPushButton">
+      <property name="text">
+       <string>提交</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="2">
+     <widget class="QPushButton" name="cancelPushButton">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
